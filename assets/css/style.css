@@ -28,6 +28,7 @@ header {
 .logo-img {
     width: 80px;
     height: 80px;
+    border-radius: 40px;
     background-color: #B28756;
 }
 
@@ -87,4 +88,39 @@ header {
     height: 100%;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner h1 span {
+    color: #B28756;
+}
+
+.banner h2 {
+    margin-top: 20px;
+}
+
+.banner a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px;
+    padding: 10px 30px;
+    font-size: 13px;
+    color: #FFF;
+    background-color: #B28756;
+    border-radius: 20px;
+    font-weight: 600;
 }
