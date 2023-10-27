@@ -90,14 +90,14 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.banner .slide {
+.banner .slidearea {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 100%;
     color: #FFF;
     text-transform: uppercase;
-    text-align: center;
+    align-items: center;
 }
 
 .banner h1 {
@@ -114,7 +114,7 @@ header {
 }
 
 .banner a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     margin: 30px;
     padding: 10px 30px;
@@ -123,4 +123,28 @@ header {
     background-color: #B28756;
     border-radius: 20px;
     font-weight: 600;
+}
+
+.banner .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    margin-top: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.banner .pointer.active {
+    background-color: #B28756;
 }
