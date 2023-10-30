@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -147,4 +148,11 @@ header {
 
 .banner .pointer.active {
     background-color: #B28756;
+}
+
+
+/* DEFAULT */
+
+.default {
+    background-color: #F00;
 }
