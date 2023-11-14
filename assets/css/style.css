@@ -367,3 +367,19 @@ CSS DE AREAS ESPECIFICAS
 .section-projects--photoarea:hover .section-projects--photoinfo {
     display: flex;
 }
+
+
+
+
+.bg-team {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
