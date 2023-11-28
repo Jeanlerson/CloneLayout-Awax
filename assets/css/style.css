@@ -544,3 +544,27 @@ CSS DE AREAS ESPECIFICAS
 .section-client .pointer.active {
     background-color: #B28756;
 }
+
+
+
+.div-company {
+    border-top: solid 1px #e4c097;
+    border-bottom: solid 1px #e4c097;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section-companys {
+    display: flex;
+}
+
+.section-company {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-company img {
+    width: 80px;
+}
